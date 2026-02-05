@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="তারেক রহমান - বাংলাদেশ জাতীয়তাবাদী দলের চেয়ারম্যান এবং ভবিষ্যৎ প্রধানমন্ত্রী প্রার্থী">
+    <meta name="keywords" content="তারেক রহমান, বিএনপি, বাংলাদেশ, রাজনীতি, Tarek Rahman, BNP, Bangladesh">
+    <title>তারেক রহমান | রাজনৈতিক জীবন ও রাষ্ট্র সংস্কারের রূপকল্প</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #006747;
+            --secondary: #d4af37;
+            --accent: #c41e3a;
+            --dark: #1a1a1a;
+            --light: #f5f5f5;
+            --white: #ffffff;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'SolaimanLipi', 'Kalpurush', 'Noto Sans Bengali', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--dark);
+            background: var(--light);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--primary);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px var(--shadow);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--white);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--secondary);
+            color: var(--dark);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #004d35 100%);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .hero .tagline {
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-top: 1.5rem;
+            opacity: 0.9;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 4rem 2rem;
+        }
+
+        section:nth-child(even) {
+            background: var(--white);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-align: center;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--secondary);
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+        }
+
+        /* Biography Section */
+        .bio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .bio-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px var(--shadow);
+            transition: transform 0.3s;
+        }
+
+        .bio-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .bio-card h4 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: var(--secondary);
+        }
+
+        .timeline-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            text-align: right;
+            padding-right: 3rem;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            text-align: left;
+            padding-left: 3rem;
+        }
+
+        .timeline-content {
+            flex: 1;
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+
+        .timeline-year {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--secondary);
+            color: var(--dark);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            z-index: 10;
+        }
+
+        /* 31-Point Program */
+        .program-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .program-card {
+            background: linear-gradient(135deg, var(--white) 0%, #f9f9f9 100%);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+
+        .program-card h4 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Vision Section */
+        .vision-box {
+            background: linear-gradient(135deg, var(--primary) 0%, #004d35 100%);
+            color: var(--white);
+            padding: 3rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .vision-box h3 {
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .vision-box blockquote {
+            font-size: 1.3rem;
+            font-style: italic;
+            line-height: 1.8;
+            margin: 1.5rem 0;
+        }
+
+        /* Table */
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: var(--white);
+            box-shadow: 0 4px 15px var(--shadow);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .info-table th,
+        .info-table td {
+            padding: 1.2rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .info-table th {
+            background: var(--primary);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .info-table tr:hover {
+            background: #f9f9f9;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--white);
+            padding: 3rem 2rem 1rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            nav .container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                justify-content: center;
+            }
+
+            .social-links {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .social-links span {
+                display: none;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .timeline-year {
+                position: relative;
+                left: 20px;
+                transform: none;
+                margin-bottom: 1rem;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                text-align: left;
+                padding-left: 60px;
+                padding-right: 1rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            nav, footer {
+                display: none;
+            }
+            
+            section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">তারেক রহমান</div>
+            <ul>
+                <li><a href="#about">পরিচয়</a></li>
+                <li><a href="#timeline">রাজনৈতিক যাত্রা</a></li>
+                <li><a href="#reform">৩১-দফা</a></li>
+                <li><a href="#vision">রূপকল্প</a></li>
+                <li><a href="#achievements">অর্জন</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/tariquerahman.bdbnp" target="_blank" rel="noopener noreferrer" title="Facebook">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://x.com/trahmanbnp" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    <span>X (Twitter)</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>তারেক রহমান</h1>
+            <p class="subtitle">বাংলাদেশ জাতীয়তাবাদী দলের চেয়ারম্যান</p>
+            <p>শহীদ রাষ্ট্রপতি জিয়াউর রহমান (বীর উত্তম) এর জ্যেষ্ঠ পুত্র<br>
+            সাবেক প্রধানমন্ত্রী বেগম খালেদা জিয়ার জ্যেষ্ঠ পুত্র</p>
+            <p class="tagline">"নট দিল্লি, নট পিন্ডি, বাংলাদেশ বিফোর এভরিথিং"</p>
+            
+            <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+                <a href="https://www.facebook.com/tariquerahman.bdbnp" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.8rem 1.5rem; background: rgba(255,255,255,0.15); color: white; text-decoration: none; border-radius: 8px; font-size: 1.1rem; transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.25)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="https://x.com/trahmanbnp" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.8rem 1.5rem; background: rgba(255,255,255,0.15); color: white; text-decoration: none; border-radius: 8px; font-size: 1.1rem; transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.25)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'; this.style.transform='translateY(0)'">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    X (Twitter) - 89.1K+ Followers
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>জীবন পরিচয়</h2>
+            
+            <table class="info-table">
+                <tr>
+                    <th>বৈশিষ্ট্য</th>
+                    <th>তথ্য</th>
+                </tr>
+                <tr>
+                    <td>জন্ম তারিখ</td>
+                    <td>২০ নভেম্বর ১৯৬৩ (জাতীয় পরিচয়পত্র অনুযায়ী ১৯৬৮)</td>
+                </tr>
+                <tr>
+                    <td>জন্মস্থান</td>
+                    <td>ঢাকা, বাংলাদেশ</td>
+                </tr>
+                <tr>
+                    <td>পিতা</td>
+                    <td>শহীদ রাষ্ট্রপতি জিয়াউর রহমান (বীর উত্তম)</td>
+                </tr>
+                <tr>
+                    <td>মাতা</td>
+                    <td>বেগম খালেদা জিয়া (সাবেক প্রধানমন্ত্রী)</td>
+                </tr>
+                <tr>
+                    <td>ভাই</td>
+                    <td>আরাফাত রহমান কোকো (মৃত)</td>
+                </tr>
+                <tr>
+                    <td>শিক্ষা</td>
+                    <td>বিএএফ শাহীন কলেজ, ঢাকা রেসিডেন্সিয়াল মডেল কলেজ, আদমজী ক্যান্টনমেন্ট কলেজ, ঢাকা বিশ্ববিদ্যালয় (আইন ও আন্তর্জাতিক সম্পর্ক)</td>
+                </tr>
+                <tr>
+                    <td>স্ত্রী</td>
+                    <td>ডাঃ জুবাইদা রহমান (বিবাহ ১৯৯৪)</td>
+                </tr>
+                <tr>
+                    <td>সন্তান</td>
+                    <td>জাইমা রহমান (কন্যা)</td>
+                </tr>
+                <tr>
+                    <td>বর্তমান পদ</td>
+                    <td>বাংলাদেশ জাতীয়তাবাদী দলের চেয়ারম্যান (২০২৬-বর্তমান)</td>
+                </tr>
+            </table>
+
+            <div class="bio-grid">
+                <div class="bio-card">
+                    <h4>🎓 প্রাথমিক জীবন</h4>
+                    <p>১৯৭১ সালের মহান মুক্তিযুদ্ধের সময় শিশু তারেক রহমান তার মা বেগম খালেদা জিয়া এবং ছোট ভাই কোকোর সাথে বন্দী ছিলেন। এই অভিজ্ঞতা তাকে রাজনীতির রূঢ় বাস্তবতার সাথে শৈশবেই পরিচয় করিয়ে দেয়।</p>
+                </div>
+                <div class="bio-card">
+                    <h4>📚 শিক্ষা ও প্রভাব</h4>
+                    <p>তার রাজনৈতিক চিন্তাধারায় সক্রেটিস, প্লেটো, এরিস্টটল, হব্‌স, লক, রুশো এবং কার্ল মার্কসের মতো দার্শনিকদের প্রভাব লক্ষ্য করা যায়, যা তার রাষ্ট্র সংস্কারের রূপকল্প তৈরিতে সহায়ক হয়েছে।</p>
+                </div>
+                <div class="bio-card">
+                    <h4>⚡ রাজনৈতিক উত্থান</h4>
+                    <p>১৯৮৮ সালে বগুড়ার গাবতলী উপজেলায় বিএনপির প্রাথমিক সদস্যপদ গ্রহণের মাধ্যমে তার সাংগঠনিক জীবন শুরু। তৃণমূল পর্যায় থেকে উঠে আসা একজন দক্ষ সংগঠক।</p>
+                </div>
+                <div class="bio-card">
+                    <h4>🌍 নির্বাসন ও প্রত্যাবর্তন</h4>
+                    <p>২০০৮ সালে লন্ডনে চিকিৎসার জন্য গিয়ে ১৭ বছর ৩ মাস নির্বাসিত জীবন কাটান। ২০২৫ সালের ২৫ ডিসেম্বর বাংলাদেশে প্রত্যাবর্তন করেন এবং লক্ষ লক্ষ মানুষ তাকে স্বাগত জানায়।</p>
+                </div>
+                <div class="bio-card">
+                    <h4>📱 সোশ্যাল মিডিয়া উপস্থিতি</h4>
+                    <p style="margin-bottom: 1rem;">বিশ্বজুড়ে লক্ষ লক্ষ সমর্থকের সাথে সরাসরি যোগাযোগ রক্ষা করছেন সোশ্যাল মিডিয়ার মাধ্যমে।</p>
+                    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <a href="https://www.facebook.com/tariquerahman.bdbnp" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.7rem; padding: 0.7rem; background: #1877f2; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform='translateX(0)'">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            Facebook - Official Page
+                        </a>
+                        <a href="https://x.com/trahmanbnp" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.7rem; padding: 0.7rem; background: #000000; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform='translateX(0)'">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                            X (Twitter) - 89.1K+ Followers
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline">
+        <div class="container">
+            <h2>রাজনৈতিক যাত্রাপথ</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">১৯৮৮</div>
+                    <div class="timeline-content">
+                        <h4>রাজনৈতিক জীবনের শুরু</h4>
+                        <p>বগুড়ার গাবতলী উপজেলায় বিএনপির প্রাথমিক সদস্যপদ গ্রহণ। এরশাদ বিরোধী আন্দোলনে সক্রিয় অংশগ্রহণ।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">১৯৯১</div>
+                    <div class="timeline-content">
+                        <h4>নির্বাচনী সমন্বয়ক</h4>
+                        <p>খালেদা জিয়ার নির্বাচনী এলাকাগুলোতে সমন্বয়কের দায়িত্ব পালন। বিএনপির ঐতিহাসিক বিজয়ে গুরুত্বপূর্ণ ভূমিকা।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">১৯৯৩</div>
+                    <div class="timeline-content">
+                        <h4>বগুড়া মডেল প্রবর্তন</h4>
+                        <p>গোপন ব্যালটের মাধ্যমে নেতা নির্বাচনের বৈপ্লবিক পদ্ধতি প্রবর্তন। দলীয় গণতন্ত্রের নতুন দিগন্ত উন্মোচন।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০০১</div>
+                    <div class="timeline-content">
+                        <h4>ল্যান্ডস্লাইড বিজয়</h4>
+                        <p>চারদলীয় জোটের বিশাল বিজয়ের পেছনে কৌশলগত অবদান। গবেষণা সেল প্রতিষ্ঠা।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০০২</div>
+                    <div class="timeline-content">
+                        <h4>সিনিয়র যুগ্ম মহাসচিব</h4>
+                        <p>বিএনপির সিনিয়র যুগ্ম মহাসচিব হিসেবে নিযুক্তি। জাতীয় রাজনীতিতে সরাসরি প্রভাব বিস্তার শুরু।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০০৭</div>
+                    <div class="timeline-content">
+                        <h4>গ্রেপ্তার ও নির্যাতন</h4>
+                        <p>১/১১-এর পর ৭ মার্চ গ্রেপ্তার। কারাগারে অমানুষিক নির্যাতনের শিকার। রাজনৈতিক দমন-পীড়নের কঠিন সময়।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০০৮</div>
+                    <div class="timeline-content">
+                        <h4>লন্ডন গমন</h4>
+                        <p>চিকিৎসার জন্য জামিনে মুক্তি এবং ১১ সেপ্টেম্বর লন্ডনের উদ্দেশ্যে দেশ ত্যাগ। দীর্ঘ নির্বাসনের শুরু।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০০৯</div>
+                    <div class="timeline-content">
+                        <h4>সিনিয়র ভাইস চেয়ারম্যান</h4>
+                        <p>লন্ডন থেকেই দলের সিনিয়র ভাইস চেয়ারম্যান হিসেবে দায়িত্ব পালন শুরু।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০১৮</div>
+                    <div class="timeline-content">
+                        <h4>ভারপ্রাপ্ত চেয়ারম্যান</h4>
+                        <p>খালেদা জিয়া কারারুদ্ধ হওয়ার পর বিএনপির ভারপ্রাপ্ত চেয়ারম্যান হিসেবে দায়িত্ব গ্রহণ।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০২৪</div>
+                    <div class="timeline-content">
+                        <h4>ছাত্র-জনতার অভ্যুত্থান</h4>
+                        <p>জুলাই-আগস্টের গণঅভ্যুত্থানে লন্ডন থেকে নেতৃত্ব প্রদান। শেখ হাসিনা সরকারের পতন।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০২৫</div>
+                    <div class="timeline-content">
+                        <h4>স্বদেশ প্রত্যাবর্তন</h4>
+                        <p>২৫ ডিসেম্বর দীর্ঘ ১৭ বছর ৩ মাস পর বাংলাদেশে প্রত্যাবর্তন। লক্ষ লক্ষ মানুষের স্বাগত।</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">২০২৬</div>
+                    <div class="timeline-content">
+                        <h4>চেয়ারম্যান হিসেবে দায়িত্বগ্রহণ</h4>
+                        <p>৯ জানুয়ারি বিএনপির চেয়ারম্যান হিসেবে আনুষ্ঠানিকভাবে দায়িত্ব গ্রহণ। ৩১-দফা সংস্কার কর্মসূচি ঘোষণা।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 31-Point Reform Program -->
+    <section id="reform">
+        <div class="container">
+            <h2>৩১-দফা রাষ্ট্র সংস্কার কর্মসূচি</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">শহীদ জিয়াউর রহমানের ১৯-দফা এবং বেগম খালেদা জিয়ার 'ভিশন ২০৩০'-এর আধুনিক ও পরিমার্জিত রূপ</p>
+            
+            <div class="program-grid">
+                <div class="program-card">
+                    <h4>১. সংবিধান সংস্কার কমিশন</h4>
+                    <p>বিতর্কিত ও অগণতান্ত্রিক সংশোধনীগুলো বাতিল করে একটি অন্তর্ভুক্তিমূলক সংবিধান প্রণয়ন।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২. দ্বিকক্ষ বিশিষ্ট সংসদ</h4>
+                    <p>উচ্চকক্ষ গঠন যেখানে বিশেষজ্ঞ ও গুণীজনরা অংশগ্রহণ করবেন। আইন প্রণয়নে গুণগত মান নিশ্চিতকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৩. প্রধানমন্ত্রীর ক্ষমতার ভারসাম্য</h4>
+                    <p>পরপর দুই মেয়াদের বেশি কেউ প্রধানমন্ত্রী থাকতে পারবেন না। ক্ষমতার কেন্দ্রীকরণ রোধ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৪. তত্ত্বাবধায়ক সরকার</h4>
+                    <p>অবাধ ও সুষ্ঠু নির্বাচন নিশ্চিত করতে সংবিধানে স্থায়ীভাবে নির্দলীয় তত্ত্বাবধায়ক সরকার ব্যবস্থা।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৫. রেইনবো নেশন (Rainbow Nation)</h4>
+                    <p>প্রতিহিংসার রাজনীতির অবসান। ধর্ম-বর্ণ-মত নির্বিশেষে একটি ঐক্যবদ্ধ জাতি গঠন।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৬. বিচার বিভাগের স্বাধীনতা</h4>
+                    <p>দলীয় প্রভাবমুক্ত বিচার ব্যবস্থা। ন্যায়বিচার নিশ্চিতকরণে স্বাধীন ও শক্তিশালী বিচার বিভাগ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৭. নিরপেক্ষ প্রশাসন</h4>
+                    <p>রাজনৈতিক প্রভাবমুক্ত পেশাদার আমলাতন্ত্র। যোগ্যতার ভিত্তিতে নিয়োগ ও পদোন্নতি।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৮. গণমাধ্যমের স্বাধীনতা</h4>
+                    <p>সংবাদপত্র ও মিডিয়ার সম্পূর্ণ স্বাধীনতা। সরকারি হস্তক্ষেপ বন্ধ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৯. দুর্নীতি দমন</h4>
+                    <p>শক্তিশালী দুর্নীতি দমন কমিশন। দুর্নীতিবাজদের বিরুদ্ধে কঠোর ব্যবস্থা।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১০. মানবাধিকার সংরক্ষণ</h4>
+                    <p>সকল নাগরিকের মৌলিক অধিকার নিশ্চিতকরণ। বিচার বহির্ভূত হত্যা ও গুমের বিরুদ্ধে জিরো টলারেন্স।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১১. নারীর ক্ষমতায়ন</h4>
+                    <p>নারীদের জন্য আর্থিক সহায়তা কার্ড চালু। শিশুদের শিক্ষা ও চিকিৎসা নিশ্চিতকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১২. যুব উন্নয়ন</h4>
+                    <p>তরুণদের জন্য কর্মসংস্থান সৃষ্টি। দক্ষতা উন্নয়ন ও উদ্যোক্তা তৈরির কর্মসূচি।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৩. শিক্ষা সংস্কার</h4>
+                    <p>মানসম্মত শিক্ষা নিশ্চিতকরণ। বিজ্ঞান ও প্রযুক্তি শিক্ষায় বিশেষ গুরুত্ব।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৪. স্বাস্থ্য সেবা</h4>
+                    <p>সবার জন্য সাশ্রয়ী ও মানসম্মত স্বাস্থ্য সেবা। গ্রামীণ স্বাস্থ্য সেবা জোরদারকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৫. কৃষি ও খাদ্য নিরাপত্তা</h4>
+                    <p>কৃষকদের ন্যায্য মূল্য প্রাপ্তি নিশ্চিত। কৃষি আধুনিকীকরণ ও খাদ্য নিরাপত্তা।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৬. শিল্পায়ন ও বিনিয়োগ</h4>
+                    <p>দেশী-বিদেশী বিনিয়োগ বৃদ্ধি। শিল্প খাতের উন্নয়ন ও কর্মসংস্থান সৃষ্টি।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৭. অবকাঠামো উন্নয়ন</h4>
+                    <p>সড়ক, সেতু, বিদ্যুৎ ও যোগাযোগ অবকাঠামোর ব্যাপক উন্নয়ন।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৮. ডিজিটাল বাংলাদেশ</h4>
+                    <p>প্রযুক্তি নির্ভর সেবা প্রদান। ই-গভর্নেন্স বাস্তবায়ন।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>১৯. জাতীয় নিরাপত্তা</h4>
+                    <p>দেশের সীমানা ও সার্বভৌমত্ব রক্ষা। সেনাবাহিনী ও আইন শৃঙ্খলা বাহিনীকে শক্তিশালীকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২০. বৈদেশিক নীতি</h4>
+                    <p>"বাংলাদেশ ফার্স্ট" নীতি। সবার সাথে বন্ধুত্ব, কারো সাথে শত্রুতা নয়।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২১. পরিবেশ সংরক্ষণ</h4>
+                    <p>জলবায়ু পরিবর্তনের প্রভাব মোকাবেলা। পরিবেশবান্ধব উন্নয়ন নিশ্চিতকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২২. বিদ্যুৎ ও জ্বালানি</h4>
+                    <p>বিদ্যুৎ উৎপাদন বৃদ্ধি। নবায়নযোগ্য জ্বালানিতে বিনিয়োগ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৩. পানি ব্যবস্থাপনা</h4>
+                    <p>পানি সম্পদের সুষ্ঠু ব্যবস্থাপনা। নদী খনন ও সংরক্ষণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৪. ভূমি সংস্কার</h4>
+                    <p>ভূমিহীনদের পুনর্বাসন। ভূমি ব্যবস্থাপনার ডিজিটালাইজেশন।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৫. আইনের শাসন</h4>
+                    <p>সকলের জন্য আইনের সমান প্রয়োগ। কেউ আইনের ঊর্ধ্বে নয়।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৬. স্থানীয় সরকার</h4>
+                    <p>স্থানীয় সরকারকে শক্তিশালী ও স্বাধীন করা। তৃণমূল উন্নয়ন নিশ্চিতকরণ।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৭. ধর্মীয় স্বাধীনতা</h4>
+                    <p>সকল ধর্মের মানুষের নিরাপত্তা ও স্বাধীনতা। সংখ্যালঘু সুরক্ষা।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৮. সাংস্কৃতিক উন্নয়ন</h4>
+                    <p>বাংলা সংস্কৃতির চর্চা ও সংরক্ষণ। সাংস্কৃতিক বৈচিত্র্য রক্ষা।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>২৯. ক্রীড়া উন্নয়ন</h4>
+                    <p>ক্রীড়া অবকাঠামো উন্নয়ন। খেলোয়াড়দের পৃষ্ঠপোষকতা বৃদ্ধি।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৩০. গবেষণা ও উদ্ভাবন</h4>
+                    <p>বিজ্ঞান ও প্রযুক্তিতে গবেষণায় বিনিয়োগ। উদ্ভাবনী শক্তি বৃদ্ধি।</p>
+                </div>
+
+                <div class="program-card">
+                    <h4>৩১. জাতীয় ঐক্য</h4>
+                    <p>বিভাজনের রাজনীতির অবসান। সকল নাগরিকের জন্য সমান সুযোগ ও মর্যাদা।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision">
+        <div class="container">
+            <h2>রাজনৈতিক দর্শন ও ভবিষ্যৎ রূপকল্প</h2>
+            
+            <div class="vision-box">
+                <h3>Bangladesh First - বাংলাদেশ ফার্স্ট</h3>
+                <blockquote>
+                    "নট দিল্লি, নট পিন্ডি, বাংলাদেশ বিফোর এভরিথিং।<br>
+                    আমাদের বৈদেশিক নীতি হবে দেশের স্বার্থকে সর্বোচ্চ অগ্রাধিকার দেওয়া।<br>
+                    সবার সাথে বন্ধুত্ব, কারো সাথে শত্রুতা নয়।"
+                </blockquote>
+            </div>
+
+            <h3 style="text-align: center; margin-top: 3rem;">মূল দর্শন</h3>
+            
+            <div class="bio-grid">
+                <div class="bio-card">
+                    <h4>🌈 রেইনবো নেশন (Rainbow Nation)</h4>
+                    <p>প্রতিহিংসার রাজনীতির অবসান ঘটিয়ে ধর্ম-বর্ণ-মত নির্বিশেষে একটি ঐক্যবদ্ধ, অন্তর্ভুক্তিমূলক জাতি গঠন। দক্ষিণ আফ্রিকার নেলসন ম্যান্ডেলার আদর্শে অনুপ্রাণিত।</p>
+                </div>
+
+                <div class="bio-card">
+                    <h4>⚖️ প্রাতিষ্ঠানিক জবাবদিহিতা</h4>
+                    <p>ক্ষমতার কেন্দ্রীকরণ রোধ। প্রধানমন্ত্রী, সংসদ, বিচার বিভাগ ও প্রশাসনের মধ্যে ভারসাম্য প্রতিষ্ঠা। কেউ আইনের ঊর্ধ্বে নয়।</p>
+                </div>
+
+                <div class="bio-card">
+                    <h4>🤝 তৃণমূল উন্নয়ন</h4>
+                    <p>রাজনৈতিক শক্তির উৎস তৃণমূল জনগণ। গ্রামীণ উন্নয়ন ও স্থানীয় সরকার শক্তিশালীকরণের মাধ্যমে প্রকৃত গণতন্ত্র প্রতিষ্ঠা।</p>
+                </div>
+
+                <div class="bio-card">
+                    <h4>🎯 দুর্নীতিমুক্ত রাষ্ট্র</h4>
+                    <p>দুর্নীতির বিরুদ্ধে জিরো টলারেন্স নীতি। স্বচ্ছতা ও জবাবদিহিতা নিশ্চিতকরণের মাধ্যমে একটি পরিচ্ছন্ন প্রশাসন গঠন।</p>
+                </div>
+            </div>
+
+            <div class="vision-box" style="margin-top: 3rem;">
+                <h3>স্বপ্নের বাংলাদেশ</h3>
+                <blockquote>
+                    "আমার একটি স্বপ্ন আছে — একটি বাংলাদেশ যেখানে কোনো মানুষ ক্ষুধার্ত থাকবে না,<br>
+                    যেখানে প্রতিটি শিশু শিক্ষা পাবে, প্রতিটি রোগী চিকিৎসা পাবে,<br>
+                    যেখানে ধর্ম-বর্ণ নির্বিশেষে সবাই সম্মান ও নিরাপত্তার সাথে বাস করবে।<br>
+                    এই স্বপ্ন পূরণে আমি আমার জীবন উৎসর্গ করতে প্রস্তুত।"
+                    <br><br>
+                    <em>— তারেক রহমান, সাতক্ষীরা জনসভা, ২০২৬</em>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2>রাজনৈতিক অর্জন ও পরিসংখ্যান</h2>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <span class="stat-number">১৭+</span>
+                    <span class="stat-label">বছর নির্বাসন</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">৩৮</span>
+                    <span class="stat-label">বছর রাজনৈতিক অভিজ্ঞতা</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">১৮,০০০+</span>
+                    <span class="stat-label">হাতে লেখা চিঠি কর্মীদের কাছে</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">৩১</span>
+                    <span class="stat-label">দফা সংস্কার কর্মসূচি</span>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-top: 3rem;">প্রধান অর্জনসমূহ</h3>
+
+            <table class="info-table" style="margin-top: 2rem;">
+                <tr>
+                    <th>বছর</th>
+                    <th>অর্জন/দায়িত্ব</th>
+                    <th>তাৎপর্য</th>
+                </tr>
+                <tr>
+                    <td>১৯৮৮</td>
+                    <td>প্রাথমিক সদস্যপদ গ্রহণ</td>
+                    <td>আনুষ্ঠানিক রাজনৈতিক জীবনের শুরু</td>
+                </tr>
+                <tr>
+                    <td>১৯৯১</td>
+                    <td>নির্বাচনী প্রচারণা সমন্বয়ক</td>
+                    <td>বিএনপির ঐতিহাসিক বিজয়</td>
+                </tr>
+                <tr>
+                    <td>১৯৯৩</td>
+                    <td>বগুড়া মডেল প্রবর্তন</td>
+                    <td>দলীয় গণতন্ত্রের নতুন মাত্রা</td>
+                </tr>
+                <tr>
+                    <td>২০০১</td>
+                    <td>গবেষণা সেল প্রতিষ্ঠা</td>
+                    <td>ল্যান্ডস্লাইড বিজয়ের কৌশলগত পরিকল্পনা</td>
+                </tr>
+                <tr>
+                    <td>২০০২</td>
+                    <td>সিনিয়র যুগ্ম মহাসচিব</td>
+                    <td>জাতীয় পর্যায়ে নেতৃত্ব</td>
+                </tr>
+                <tr>
+                    <td>২০০৯</td>
+                    <td>সিনিয়র ভাইস চেয়ারম্যান</td>
+                    <td>নির্বাসনেও দলীয় নেতৃত্ব অব্যাহত</td>
+                </tr>
+                <tr>
+                    <td>২০১৮</td>
+                    <td>ভারপ্রাপ্ত চেয়ারম্যান</td>
+                    <td>কঠিন সময়ে দলকে একত্রিত রাখা</td>
+                </tr>
+                <tr>
+                    <td>২০২৩</td>
+                    <td>৩১-দফা কর্মসূচি ঘোষণা</td>
+                    <td>রাষ্ট্র সংস্কারের রূপরেখা</td>
+                </tr>
+                <tr>
+                    <td>২০২৪</td>
+                    <td>গণঅভ্যুত্থানে নেতৃত্ব</td>
+                    <td>স্বৈরাচারী সরকারের পতন</td>
+                </tr>
+                <tr>
+                    <td>২০২৫</td>
+                    <td>স্বদেশ প্রত্যাবর্তন</td>
+                    <td>লক্ষ লক্ষ মানুষের স্বাগত</td>
+                </tr>
+                <tr>
+                    <td>২০২৬</td>
+                    <td>বিএনপি চেয়ারম্যান</td>
+                    <td>নতুন যুগের নেতৃত্ব</td>
+                </tr>
+            </table>
+
+            <h3 style="text-align: center; margin-top: 3rem;">আইনি সংগ্রাম</h3>
+            
+            <table class="info-table" style="margin-top: 2rem;">
+                <tr>
+                    <th>মামলার নাম</th>
+                    <th>সাজা</th>
+                    <th>বর্তমান অবস্থা (২০২৫)</th>
+                </tr>
+                <tr>
+                    <td>মানি লন্ডারিং</td>
+                    <td>৭ বছর কারাদণ্ড</td>
+                    <td>খালাস প্রাপ্ত</td>
+                </tr>
+                <tr>
+                    <td>জিয়া অরফানেজ ট্রাস্ট</td>
+                    <td>১০ বছর কারাদণ্ড</td>
+                    <td>খালাস প্রাপ্ত</td>
+                </tr>
+                <tr>
+                    <td>২১ আগস্ট গ্রেনেড হামলা</td>
+                    <td>যাবজ্জীবন কারাদণ্ড</td>
+                    <td>খালাস প্রাপ্ত</td>
+                </tr>
+                <tr>
+                    <td>অবৈধ সম্পদ অর্জন</td>
+                    <td>বিভিন্ন মেয়াদে</td>
+                    <td>মামলা প্রত্যাহার/খালাস</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center; font-style: italic; background: #f0f0f0;">
+                        মোট ৮৪টি মামলার সম্মুখীন হয়ে রাজনৈতিক নিপীড়ন সহ্য করেছেন
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 style="color: var(--secondary); margin-bottom: 1rem;">তারেক রহমান</h3>
+            <p style="margin-bottom: 2rem;">বাংলাদেশ জাতীয়তাবাদী দলের চেয়ারম্যান</p>
+            
+            <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
+                <a href="https://www.facebook.com/tariquerahman.bdbnp" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.2rem; background: #1877f2; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(24,119,242,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="https://x.com/trahmanbnp" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.2rem; background: #000000; color: white; text-decoration: none; border-radius: 6px; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    X (89.1K+ Followers)
+                </a>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#about">পরিচয়</a>
+                <a href="#timeline">রাজনৈতিক যাত্রা</a>
+                <a href="#reform">৩১-দফা</a>
+                <a href="#vision">রূপকল্প</a>
+                <a href="#achievements">অর্জন</a>
+            </div>
+            
+            <p style="margin-top: 2rem; opacity: 0.7;">
+                "Bangladesh First - বাংলাদেশ ফার্স্ট"
+            </p>
+            
+            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.6;">
+                © ২০২৬ তারেক রহমান পোর্টফোলিও | সর্বস্বত্ব সংরক্ষিত
+            </p>
+            
+            <p style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.5;">
+                GitHub & Cloudflare Ready | Responsive Design
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.bio-card, .timeline-item, .program-card, .stat-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Mobile menu toggle (if needed in future)
+        console.log('Tarek Rahman Portfolio - Ready for deployment');
+    </script>
+</body>
+</html>
